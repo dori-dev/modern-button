@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "LatoWebBold";
+  src: url("fonts/Lato-Bold.woff2") format("woff2"),
+    url("fonts/Lato-Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  font-family: "LatoWebBold";
+}
+
+body {
+  font-family: "LatoWebBold";
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+button {
+  font-size: 60px;
+  border: none;
+  outline: none;
+  padding: 10px 40px 5px 40px;
+  background: #0984e3;
+  background: linear-gradient(20deg, #0984e3 0%, #5dc5f8 120%);
+  color: #fff;
+  border-radius: 14px;
+  cursor: pointer;
+  box-shadow: 8px 8px 16px 4px rgba(9, 133, 227, 0.3),
+    -4px -4px 8px 2px rgba(9, 133, 227, 0.2);
+  transition: all 0.1s ease-in-out;
+}
+
+button:hover {
+  box-shadow: 8px 8px 16px 5px rgba(9, 133, 227, 0.5),
+    -4px -4px 8px 1px rgba(9, 133, 227, 0.4);
+}
