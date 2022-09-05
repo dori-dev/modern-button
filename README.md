@@ -2,7 +2,7 @@
 
 Modern button written with HTML & CSS.<br>
 
-![Modern Button Image](./demo.png)
+[<img src="./demo.png" width="80%"/>](./demo.png)
 
 #
 
